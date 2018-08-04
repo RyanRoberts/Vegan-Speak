@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, StyleSheet } from 'react-native'
 import { Card, Button } from 'react-native-elements'
 
-class Category extends React.Component {
+class Categories extends React.Component {
     render() {
         return (
             <Card
@@ -25,4 +25,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default Category
+export default Categories
