@@ -18,5 +18,9 @@ export default categoriesData = [
 	{
 		name: 'ENVIRONNEMENT',
 		icon: 'tree'
+	},
+	{
+		name: 'ALL',
+		icon: 'check-square'
 	}
 ]
