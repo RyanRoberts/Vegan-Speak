@@ -1,8 +1,7 @@
 import React from 'react';
-import { View, Text, StyleSheet, FlatList } from 'react-native'
-import { Card, Button, Icon, Dimensions } from 'react-native-elements'
-import CategoriesData from '../assets/categoriesData'
-
+import { View, StyleSheet, FlatList } from 'react-native';
+import CategoriesData from '../assets/categoriesData';
+import CategoryCard from './CategoryCard';
 
 
 const formatData = (data, numColumns) => {
@@ -19,19 +18,17 @@ const formatData = (data, numColumns) => {
 
 const numColumns = 2;
 
-class Categories extends React.Component {
+class CategoriesMenu extends React.Component {
+
+    _displayArguments = (category) => {
+      this.props.navigation.navigate("ArgumentList", { category: category })
+    }
     renderItem = ({ item, index }) => {
         if (item.empty === true) {
           return <View style={[styles.item, styles.itemInvisible]} />;
         }
         return (
-          <View style={styles.item}>
-              <Card
-              containerStyle={styles.categoryCard}
-            title={item.name}>
-                <Icon name={item.icon} type="font-awesome"></Icon>
-            </Card> 
-          </View>
+          <CategoryCard category={item} displayArguments = {this._displayArguments}/>
         );
       };
     render() {
@@ -50,17 +47,7 @@ class Categories extends React.Component {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        marginVertical: 20,
     },
-    item: {
-        alignItems: 'center',
-        justifyContent: 'center',
-        flex: 1,
-        margin: 1
-    },
-    categoryCard: {
-      width: '100%'
-    }
 });
 
-export default Categories
+export default CategoriesMenu

@@ -1,12 +1,16 @@
 import { createStackNavigator } from 'react-navigation'
-import Categories from '../Components/Categories'
+import CategoriesMenu from '../Components/CategoriesMenu'
+import ArgumentList from '../Components/ArgumentList'
 
 const MainStackNavigator = createStackNavigator({
-	Categories: {
-		screen: Categories,
+	CategoriesMenu: {
+		screen: CategoriesMenu,
 		navigationOptions:{
 			title: 'Browse by category...'
 		}
+	},
+	ArgumentList: {
+		screen: ArgumentList
 	}
 })
 
