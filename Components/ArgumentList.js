@@ -1,9 +1,12 @@
 import React from 'react'
-import { StyleSheet, View, TextInput, Button, Text,FlatList } from 'react-native'
+import { StyleSheet, View, FlatList } from 'react-native'
 import args from '../assets/argumentsData'
 import {ListItem} from 'react-native-elements'
 
 class ArgumentList extends React.Component {
+    _displayArgument = (arg) => {
+      this.props.navigation.navigate("Argument", { argument: arg })
+    }
     renderItem = ({item, key}) => {
       return(
         <ListItem 
@@ -11,6 +14,7 @@ class ArgumentList extends React.Component {
           title={item.argument}
           containerStyle={styles.listItem}
           hideChevron
+          onPress = {() => this._displayArgument(item)}
           wrapperStyle={{flexDirection: 'row-reverse'}} 
           leftIcon={{ name: "chevron-right"}}/>//this icon is actually on the right! I inverted flex for the badge to be on the left 
         );

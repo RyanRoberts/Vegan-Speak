@@ -1,5 +1,9 @@
 export default categoriesData = [
 	{
+		name: 'ALL',
+		icon: 'check-square'
+	},
+	{
 		name: 'NATURE',
 		icon: 'envira'
 	},
@@ -18,9 +22,5 @@ export default categoriesData = [
 	{
 		name: 'ENVIRONNEMENT',
 		icon: 'tree'
-	},
-	{
-		name: 'ALL',
-		icon: 'check-square'
 	}
 ]
