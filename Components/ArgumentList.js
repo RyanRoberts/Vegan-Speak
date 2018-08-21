@@ -4,6 +4,11 @@ import args from '../assets/argumentsData'
 import {ListItem} from 'react-native-elements'
 
 class ArgumentList extends React.Component {
+      static navigationOptions = ({ navigation }) => {
+      return {
+        title: navigation.getParam('category', 'unrecognized category'),
+      };
+    };
     _displayArgument = (arg) => {
       this.props.navigation.navigate("Argument", { argument: arg })
     }
@@ -19,11 +24,6 @@ class ArgumentList extends React.Component {
           leftIcon={{ name: "chevron-right"}}/>//this icon is actually on the right! I inverted flex for the badge to be on the left 
         );
     };
-    static navigationOptions = ({ navigation }) => {
-    return {
-      title: navigation.getParam('category', 'unrecognized category'),
-    };
-  };
   render() {
     return (
       <View style={styles.main_container}>

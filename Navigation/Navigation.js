@@ -3,19 +3,24 @@ import CategoriesMenu from '../Components/CategoriesMenu'
 import ArgumentList from '../Components/ArgumentList'
 import Argument from '../Components/Argument'
 
-const MainStackNavigator = createStackNavigator({
-	CategoriesMenu: {
-		screen: CategoriesMenu,
-		navigationOptions:{
-			title: 'Browse by category...'
-		}
-	},
-	ArgumentList: {
-		screen: ArgumentList
-	},
-	Argument: {
-		screen: Argument
-	}
-})
+const MainStackNavigator = createStackNavigator(
+  {
+    Home: CategoriesMenu,
+    ArgumentList: ArgumentList,
+    Argument:Argument,
+  },
+  {
+    initialRouteName: 'Home',
+    navigationOptions: {
+      headerStyle: {
+        backgroundColor: '#000',
+      },
+      headerTintColor: '#fff',
+      headerTitleStyle: {
+        fontWeight: 'bold',
+      },
+    },
+  }
+);
 
 export default MainStackNavigator

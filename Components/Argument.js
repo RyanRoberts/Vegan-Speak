@@ -2,17 +2,34 @@ import React from 'react'
 import { StyleSheet, View, Text } from 'react-native'
 
 class Argument extends React.Component{
+	static navigationOptions = ({ navigation }) => {
+      return {
+        title: navigation.getParam('argument', 'unrecognized category').argument,
+      };
+    };
+	constructor(props){
+		super(props)
+		this.arg = this.props.navigation.getParam('argument')
+	}
 	render(){
-		const arg = this.props.navigation.getParam('argument')
 		return(
-			<View>
-				<Text>{arg.argument}</Text>
-				<Text>{arg.tldr}</Text>
-				<Text>{arg.answer}</Text>
+			<View style={styles.main_container}>
+				<Text style={styles.tldr}>{this.arg.tldr}</Text>
+				<Text>{this.arg.answer}</Text>
 			</View>
 		);
 	};
 
 }
+
+const styles = StyleSheet.create({
+  main_container: {
+    flex: 1,
+  },
+  tldr: {
+    color: '#a5a19d',
+    fontSize: 24,
+  }
+})
 
 export default Argument

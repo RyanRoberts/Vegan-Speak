@@ -20,6 +20,12 @@ const numColumns = 2;
 
 class CategoriesMenu extends React.Component {
 
+    static navigationOptions = ({ navigation }) => {
+      return {
+        title: 'Browse categories...',
+      };
+    };
+
     _displayArguments = (category) => {
       this.props.navigation.navigate("ArgumentList", { category: category })
     }
