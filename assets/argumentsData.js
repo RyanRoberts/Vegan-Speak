@@ -3,12 +3,12 @@ export default args = [
 		id: 1,
 		category : "NATURE",
 		argument : "Animals eat other animals",
-		tldr : "optional",
+		tldr : "Yes. And they don't have gender equality or democracy. Animals are not good ethical role models.",
 		answer : "Yes, this is true. But we should not base our ethics as a society on what animals do in nature. Lions eat their offsprings if they don’t have enough food, engage in violent territorial disputes and forcibly impregnate females. Dogs smell each others’ backside when they first meet. Many animals even kill members of their own species. If you say that animals doing something is a justification for us doing it, then by this logic you could advocate murder, infanticide, rape and several other unethical and/or disgusting behaviour that you don’t engage in. Another crucial point is that animals in nature kill to survive. We don’t need to eat other animals to survive, and doing so causes suffering, so if we can avoid it, we should. Animals are not good ethical role models."
 	},
 		{
 		id: 2,
-		category : "NATURE",
+		category : "HEALTH",
 		argument : "Top of the food chain / Circle of life",
 		tldr : "optional",
 		answer : "Scientist have proven that we are in fact not at the top of the food chain. A study by the National Academy of Sciences of the United States concluded that “humans are similar to anchovy or pigs and cannot be considered apex predators”. This means that everyone that uses the “circle of life” or “we’re at the top of the food chain” argument should be fine with being violently eaten by other animals higher in the food chain like lions or bears. In fact, they should be fine with having the same treatment as pigs since we are at their same level."

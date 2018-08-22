@@ -28,7 +28,7 @@ class ArgumentList extends React.Component {
     return (
       <View style={styles.main_container}>
         <FlatList 
-          data = {args}
+          data = {(this.props.navigation.getParam("category") === 'ALL') ? args :args.filter(elem => elem.category === this.props.navigation.getParam("category"))}
           keyExtractor={(item) => item.id.toString()}
           renderItem = {this.renderItem}
         />
