@@ -11,7 +11,7 @@ export default args = [
 		category : "HEALTH",
 		argument : "Top of the food chain / Circle of life",
 		tldr : "optional",
-		answer : "Scientist have proven that we are in fact not at the top of the food chain. A study by the National Academy of Sciences of the United States concluded that “humans are similar to anchovy or pigs and cannot be considered apex predators”. This means that everyone that uses the “circle of life” or “we’re at the top of the food chain” argument should be fine with being violently eaten by other animals higher in the food chain like lions or bears. In fact, they should be fine with having the same treatment as pigs since we are at their same level."
+		answer : '<p>Scientist have proven that we are in fact not at the top of the food chain. This <a href="http://www.pnas.org/content/110/51/20617">study</a> by the National Academy of Sciences of the United States concluded that &#8220;humans are similar to anchovy or pigs and cannot be considered apex predators&#8221;. This means that everyone that uses the &#8220;circle of life&#8221; or &#8220;we&#8217;re at the top of the food chain&#8221; argument should be fine with being violently eaten by other animals higher in the food chain like lions or bears. In fact, they should be fine with having the same treatment as pigs since we are at their same level.</p>'
 	},
 		{
 		id: 3,

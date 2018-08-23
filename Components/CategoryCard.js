@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
 		alignItems: 'center',
 		justifyContent: 'center',
 		flex: 1,
-		margin: 1
+		margin: 5,
 	},
 	categoryCard: {
 		width: '100%'

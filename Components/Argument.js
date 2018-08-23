@@ -1,5 +1,6 @@
 import React from 'react'
 import { StyleSheet, View, Text } from 'react-native'
+import HTMLView from 'react-native-htmlview';
 
 class Argument extends React.Component{
 	static navigationOptions = ({ navigation }) => {
@@ -15,7 +16,9 @@ class Argument extends React.Component{
 		return(
 			<View style={styles.main_container}>
 				<Text style={styles.tldr}>{this.arg.tldr}</Text>
-				<Text>{this.arg.answer}</Text>
+				<HTMLView
+					value={this.arg.answer}
+				/>
 			</View>
 		);
 	};
@@ -27,8 +30,12 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   tldr: {
-    color: '#a5a19d',
-    fontSize: 24,
+    color: '#878C8F',
+    fontSize: 16,
+    textAlign: 'right',
+    fontStyle: 'italic',
+    fontWeight: 'bold',
+    paddingRight: 5
   }
 })
 
