@@ -1,6 +1,7 @@
 import React from 'react'
 import { StyleSheet, View, Text } from 'react-native'
 import HTMLView from 'react-native-htmlview';
+import { connect } from 'react-redux'
 
 class Argument extends React.Component{
 	static navigationOptions = ({ navigation }) => {
@@ -39,4 +40,10 @@ const styles = StyleSheet.create({
   }
 })
 
-export default Argument
+const mapStateToProps = (state) => {
+  return {
+  		favoriteArgs: state.favoriteArgs
+  }
+}
+
+export default connect(mapStateToProps)(Argument)
