@@ -7,7 +7,7 @@ function toggleFavorite(state = initState, action){
 	switch (action.type){
 		case 'TOGGLE_FAVORITE':
 			const argIndex = state.favoriteArgs.findIndex(item => item === action.value)
-			if(favoriteArgs !== -1){
+			if(argIndex !== -1){
 				nextState = {
 					...state,
 					favoriteArgs: state.favoriteArgs.filter( (item, index) => index !== argIndex)
