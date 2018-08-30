@@ -1,14 +1,33 @@
 import { createStackNavigator, createBottomTabNavigator } from 'react-navigation'
 import CategoriesMenu from '../Components/CategoriesMenu'
-import ArgumentList from '../Components/ArgumentList'
+import Category from '../Components/Category'
 import Argument from '../Components/Argument'
 import Favorites from '../Components/Favorites'
 
 const SearchStackNavigator = createStackNavigator(
   {
     Home: CategoriesMenu,
-    ArgumentList: ArgumentList,
+    Category: Category,
     Argument:Argument,
+  },
+  {
+    initialRouteName: 'Home',
+    navigationOptions: {
+      headerStyle: {
+        backgroundColor: '#000',
+      },
+      headerTintColor: '#fff',
+      headerTitleStyle: {
+        fontWeight: 'bold',
+      },
+    },
+  }
+);
+
+const FavoriteStackNavigator = createStackNavigator(
+  {
+    Home: Favorites,
+    Argument: Argument,
   },
   {
     initialRouteName: 'Home',
@@ -29,7 +48,7 @@ const MainTabNavigator = createBottomTabNavigator({
     screen: SearchStackNavigator
   },
   Favorites: {
-    screen: Favorites
+    screen: FavoriteStackNavigator
   }
 })
 

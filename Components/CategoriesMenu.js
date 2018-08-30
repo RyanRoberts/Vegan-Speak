@@ -26,15 +26,15 @@ class CategoriesMenu extends React.Component {
       };
     };
 
-    _displayArguments = (category) => {
-      this.props.navigation.navigate("ArgumentList", { category: category })
+    _displayCategory = (category) => {
+      this.props.navigation.navigate("Category", { category: category })
     }
     renderItem = ({ item, index }) => {
         if (item.empty === true) {
           return <View style={[styles.item, styles.itemInvisible]} />;
         }
         return (
-          <CategoryCard category={item} displayArguments = {this._displayArguments}/>
+          <CategoryCard category={item} displayCategory = {this._displayCategory}/>
         );
       };
     render() {
