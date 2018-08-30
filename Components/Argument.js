@@ -7,8 +7,17 @@ import { connect } from 'react-redux'
 class Argument extends React.Component{
 	static navigationOptions = ({ navigation }) => {
       return {
-        title: navigation.getParam('argument', 'unrecognized category').argument,
-      };
+        title: navigation.getParam('argument', 'unrecognized argument').argument,
+        headerTitleStyle: {
+        fontWeight: 'bold',
+        fontSize: 14
+      },
+      headerTitle: ({ style, children : title }) => {
+        return (
+          <Text style={style} numberOfLines={2}>{title}</Text>
+        )
+      },
+    };
     };
 	constructor(props){
 		super(props)
@@ -28,7 +37,8 @@ class Argument extends React.Component{
     return (
         <Icon
           name={iconName}
-          type='font-awesome'
+          type={'font-awesome'}
+          size={32}
           onPress={() => this._toggleFavorites(this.arg.id)} 
         />
       );
@@ -36,12 +46,14 @@ class Argument extends React.Component{
 	render(){
 		return(
 			<View style={styles.main_container}>
+        <Text style={styles.sectionTitle}>{"short answer: "}</Text>
+        <Text style={styles.tldr}>{this.arg.tldr}</Text>
         <TouchableOpacity
               style={styles.favorite_container}
               onPress={() => this._toggleFavorite}>
               {this._displayFavoriteIcon()}
           </TouchableOpacity>
-				<Text style={styles.tldr}>{this.arg.tldr}</Text>
+        <Text style={styles.sectionTitle}>{"long answer: "}</Text>
 				<HTMLView
 					value={this.arg.answer}
 				/>
@@ -54,19 +66,25 @@ class Argument extends React.Component{
 const styles = StyleSheet.create({
   main_container: {
     flex: 1,
+    marginTop: 2,
     backgroundColor: 'white',
   },
   favorite_container: {
     alignItems: 'center',
+    margin: 15
   },
   tldr: {
     color: '#878C8F',
-    fontSize: 16,
+    fontSize: 14,
     textAlign: 'right',
     fontStyle: 'italic',
     fontWeight: 'bold',
     paddingRight: 5
-  }
+  },
+  sectionTitle: {
+    fontWeight: 'bold',
+    marginBottom: 10
+  },
 })
 
 const mapStateToProps = (state) => {

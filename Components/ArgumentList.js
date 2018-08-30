@@ -20,7 +20,7 @@ class ArgumentList extends React.Component {
               leftIcon={{ name: "chevron-left"}}
               containerStyle={styles.listItem}
               hideChevron
-              subtitle={(this.props.favoriteArgs.findIndex(elem => item.id === elem) !== -1)? 'favorited !' : null}
+              subtitle={(this.props.favoriteArgs.findIndex(elem => item.id === elem) !== -1)? 'favorited' : null}
               subtitleStyle= {styles.subtitle}
               onPress = {() => displayArgument(item)}
               wrapperStyle={{flexDirection: 'row-reverse'}} 
