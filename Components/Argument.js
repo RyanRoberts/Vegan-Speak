@@ -15,7 +15,7 @@ class Argument extends React.Component{
     this.arg = this.props.navigation.getParam('argument')
 	}
 
-  _toggleFavorites(argId){
+  _toggleFavorites = (argId) =>{
     const action = { type: "TOGGLE_FAVORITE", value: argId}
     this.props.dispatch(action)
   }
