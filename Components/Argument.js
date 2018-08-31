@@ -54,9 +54,11 @@ class Argument extends React.Component{
               {this._displayFavoriteIcon()}
           </TouchableOpacity>
         <Text style={styles.sectionTitle}>{"long answer: "}</Text>
+        <View style={styles.longAnswer}>
 				<HTMLView
 					value={this.arg.answer}
 				/>
+        </View>
 			</View>
 		);
 	};
@@ -76,15 +78,20 @@ const styles = StyleSheet.create({
   tldr: {
     color: '#878C8F',
     fontSize: 14,
-    textAlign: 'right',
+    textAlign: 'center',
     fontStyle: 'italic',
     fontWeight: 'bold',
-    paddingRight: 5
+    padding: 5
   },
   sectionTitle: {
     fontWeight: 'bold',
-    marginBottom: 10
+    marginBottom: 10,
+    marginLeft: 5
   },
+  longAnswer: {
+    paddingLeft: 15,
+    paddingRight: 5
+  }
 })
 
 const mapStateToProps = (state) => {
