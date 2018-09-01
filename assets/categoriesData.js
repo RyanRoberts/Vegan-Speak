@@ -8,7 +8,7 @@ export default categoriesData = [
 		icon: 'envira'
 	},
 	{
-		name: 'CULTURE',
+		name: 'CULTURE/HISTORY',
 		icon: 'flag'
 	},
 	{
@@ -22,5 +22,9 @@ export default categoriesData = [
 	{
 		name: 'ENVIRONNEMENT',
 		icon: 'tree'
+	},
+	{
+		name: 'OTHER',
+		icon: 'question'
 	}
 ]
