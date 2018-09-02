@@ -8,7 +8,7 @@ export default categoriesData = [
 		icon: 'envira'
 	},
 	{
-		name: 'CULTURE/HISTORY',
+		name: 'CULTURE/HERITAGE',
 		icon: 'flag'
 	},
 	{
@@ -20,8 +20,12 @@ export default categoriesData = [
 		icon: 'thumbs-down'
 	},
 	{
-		name: 'ENVIRONNEMENT',
-		icon: 'tree'
+		name: 'ANIMAL RESPECT',
+		icon: 'grin-hearts'
+	},
+	{
+		name: 'ETHICS',
+		icon: 'thumbs-up'
 	},
 	{
 		name: 'OTHER',
