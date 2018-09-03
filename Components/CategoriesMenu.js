@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, StyleSheet, FlatList } from 'react-native';
+import { View, StyleSheet, FlatList, TextInput } from 'react-native';
 import CategoriesData from '../assets/categoriesData';
 import CategoryCard from './CategoryCard';
 
@@ -17,6 +17,7 @@ const formatData = (data, numColumns) => {
 };
 
 const numColumns = 2;
+const defaultBackground = "#EEF2F4"
 
 class CategoriesMenu extends React.Component {
 
@@ -25,6 +26,22 @@ class CategoriesMenu extends React.Component {
         title: 'Browse categories...',
       };
     };
+    constructor(props) {
+      super(props)
+      this.state = { inputBackgroundColor: defaultBackground }
+    }
+
+    onTextInputFocus() {
+      this.setState({
+          inputBackgroundColor: 'white'
+      })
+    }
+
+    onTextInputBlur() {
+      this.setState({
+        inputBackgroundColor: defaultBackground
+      })
+    }
 
     _displayCategory = (category) => {
       this.props.navigation.navigate("Category", { category: category })
@@ -39,21 +56,36 @@ class CategoriesMenu extends React.Component {
       };
     render() {
         return (
+          <View style={styles.main_container}>
+          <TextInput
+            blurOnSubmit
+            inlineImageLeft='search_icon'
+            style={[styles.textinput, {backgroundColor: this.state.inputBackgroundColor}]}
+            placeholder='search an argument....'
+            underlineColorAndroid='black'
+            onBlur={ () => this.onTextInputBlur() }
+            onFocus={ () => this.onTextInputFocus() }
+            placeholderTextColor='#808080'/>
             <FlatList 
-            style={styles.container}
               data = {formatData(categoriesData, numColumns)}
               numColumns={numColumns}
               keyExtractor={(item) => item.name}
               renderItem = {this.renderItem}
             />
+            </View>
         );
     }
 }
 
 const styles = StyleSheet.create({
-    container: {
+    main_container: {
         flex: 1,
+        backgroundColor: defaultBackground
     },
+    textinput: {
+      height: 50,
+      paddingLeft: 20
+  },
 });
 
 export default CategoriesMenu

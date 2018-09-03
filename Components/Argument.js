@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyleSheet, View, Text, TouchableOpacity } from 'react-native'
+import { StyleSheet, View, ScrollView, Text, TouchableOpacity } from 'react-native'
 import HTMLView from 'react-native-htmlview';
 import { Icon } from 'react-native-elements'
 import { connect } from 'react-redux'
@@ -54,11 +54,11 @@ class Argument extends React.Component{
               {this._displayFavoriteIcon()}
           </TouchableOpacity>
         <Text style={styles.sectionTitle}>{"long answer: "}</Text>
-        <View style={styles.longAnswer}>
+        <ScrollView style={styles.longAnswer}>
 				<HTMLView
 					value={this.arg.answer}
 				/>
-        </View>
+        </ScrollView>
 			</View>
 		);
 	};
