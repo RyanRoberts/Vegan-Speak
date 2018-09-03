@@ -8,7 +8,7 @@ Make sure you have [npm installed](https://www.npmjs.com/get-npm)
 
 Download/clone the repository.
 
-In the root folder, open a terminal on type
+In the root folder, open a terminal and type
 ```
 npm install
 ```
