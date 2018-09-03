@@ -2,7 +2,7 @@ A small mobile application to help you counter-attack anti-vegan arguments. [Bas
 
 Developped in React Native.
 
-### Test it on your phone:
+### Test it on your Android/iOS device:
 
 Make sure you have [npm installed](https://www.npmjs.com/get-npm)
 
@@ -12,7 +12,7 @@ In the root folder, open a terminal and type
 ```
 npm install
 ```
-While your terminal is busy, you can isntall [Expo](https://expo.io/) on your phone.
+While your terminal is busy, you can install [Expo](https://expo.io/) on your phone. Expo will be the container running our test app.
 When everything is ready, launch in the terminal:
 ```
 npm start
