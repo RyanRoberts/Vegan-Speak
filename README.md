@@ -1,6 +1,6 @@
 A small mobile application to help you counter-attack anti-vegan arguments. [Based on this website](https://theveganspeak.com/guide/) Developped in React Native.
 
-##Test it on your phone:
+### Test it on your phone:
 
 Make sure you have [npm installed](https://www.npmjs.com/get-npm)
 
