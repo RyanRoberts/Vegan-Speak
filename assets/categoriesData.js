@@ -21,7 +21,7 @@ export default categoriesData = [
 	},
 	{
 		name: 'ANIMAL RESPECT',
-		icon: 'grin-hearts'
+		icon: 'heart-o'
 	},
 	{
 		name: 'ETHICS',
