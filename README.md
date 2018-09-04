@@ -1,4 +1,4 @@
-A small mobile application to help you counter-attack anti-vegan arguments. [Based on this website](https://theveganspeak.com/guide/).
+A small mobile application to help you counter-attack antivegan arguments. [Based on this website](https://theveganspeak.com/guide/).
 
 Developped in React Native.
 
