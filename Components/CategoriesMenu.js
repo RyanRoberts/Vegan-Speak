@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, StyleSheet, FlatList, TextInput } from 'react-native';
+import { View, StyleSheet, FlatList, TextInput, Image } from 'react-native';
 import CategoriesData from '../assets/categoriesData';
 import CategoryCard from './CategoryCard';
 import ArgumentList from './ArgumentList'
@@ -75,6 +75,9 @@ class CategoriesMenu extends React.Component {
 
         return (
           <View style={styles.main_container}>
+            <Image
+              style={styles.image}
+              source={require('../assets/img/veganspeak-banner.png')}/>
           <TextInput
             blurOnSubmit
             onChangeText={(text) => this._searchTextInputChanged(text)}
@@ -98,6 +101,14 @@ const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: defaultBackground
     },
+    image: {
+        flex: 1,
+        resizeMode: Image.resizeMode.contain,
+        position: 'absolute',
+        width: '100%',
+        height: '100%',
+        opacity: .2
+      },
     textinput: {
       height: 50,
       paddingLeft: 20

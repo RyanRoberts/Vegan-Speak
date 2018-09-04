@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyleSheet, View, FlatList } from 'react-native'
+import { StyleSheet, View, FlatList, Image } from 'react-native'
 import {ListItem} from 'react-native-elements'
 import { connect } from 'react-redux'
 import NavigationService from '../Services/NavigationService'
@@ -14,6 +14,9 @@ class ArgumentList extends React.Component {
   	const { args } = this.props
     return (
       <View style={styles.main_container}>
+        <Image
+          style={styles.image}
+          source={require('../assets/img/veganspeak-banner.png')}/>
         <FlatList 
           data = {args}
           extraData={this.props.favoriteArgs}
@@ -40,6 +43,14 @@ class ArgumentList extends React.Component {
 const styles = StyleSheet.create({
   main_container: {
     flex: 1,
+  },
+  image: {
+    flex: 1,
+    resizeMode: Image.resizeMode.contain,
+    position: 'absolute',
+    width: '100%',
+    height: '100%',
+    opacity: .2
   },
   subtitle:{
     color: '#CD528A'
