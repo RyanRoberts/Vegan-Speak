@@ -2,11 +2,16 @@ import React from 'react'
 import { StyleSheet, View, FlatList } from 'react-native'
 import {ListItem} from 'react-native-elements'
 import { connect } from 'react-redux'
+import NavigationService from '../Services/NavigationService'
 
 class ArgumentList extends React.Component {
 
+    _displayArgument = (arg) => {
+      NavigationService.navigate("Argument", { argument: arg })
+    }
+
   render() {
-  	const { args, displayArgument } = this.props
+  	const { args } = this.props
     return (
       <View style={styles.main_container}>
         <FlatList 
@@ -22,7 +27,7 @@ class ArgumentList extends React.Component {
               hideChevron
               subtitle={(this.props.favoriteArgs.findIndex(elem => item.id === elem) !== -1)? 'favorited' : null}
               subtitleStyle= {styles.subtitle}
-              onPress = {() => displayArgument(item)}
+              onPress = {() => this._displayArgument(item)}
               wrapperStyle={{flexDirection: 'row-reverse'}} 
               leftIcon={{ name: "chevron-right"}}/>//this icon is actually on the right! I inverted flex for the badge to be on the left 
             )}

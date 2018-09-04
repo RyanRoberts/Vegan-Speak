@@ -11,14 +11,10 @@ class Favorites extends React.Component {
       };
     };
 
-    _displayArgument = (arg) => {
-      this.props.navigation.navigate("Argument", { argument: arg })
-    }
   render() {
   	const favoriteArgs =  this.props.favoriteArgs.map(item => args[item-1])
     return (
       <ArgumentList 
-      displayArgument = {this._displayArgument}
       args={favoriteArgs}/>
     )
   }
