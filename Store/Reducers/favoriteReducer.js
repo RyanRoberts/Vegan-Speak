@@ -1,23 +1,21 @@
-const initState = { favoriteArgs: [] }
+const initState = { favoriteArgs: []}
 
-const TOGGLE_FAVORITE = 'TOGGLE_FAVORITE'
+const ADD_FAVORITE = 'ADD_FAVORITE'
+const REMOVE_FAVORITE = 'REMOVE_FAVORITE'
 
 function toggleFavorite(state = initState, action){
 	let nextState
 	switch (action.type){
-		case TOGGLE_FAVORITE:
-			const argIndex = state.favoriteArgs.findIndex(item => item === action.value)
-			if(argIndex !== -1){
-				nextState = {
-					...state,
-					favoriteArgs: state.favoriteArgs.filter( (item, index) => index !== argIndex)
-				}
+		case REMOVE_FAVORITE:
+			nextState = {
+				...state,
+				favoriteArgs: state.favoriteArgs.filter( (item, index) => item !== action.value),
 			}
-			else{
-				nextState = {
-					...state,
-					favoriteArgs: [...state.favoriteArgs, action.value]
-				}
+			return nextState || state
+		case ADD_FAVORITE:
+			nextState = {
+				...state,
+				favoriteArgs: [...state.favoriteArgs, action.value],
 			}
 			return nextState || state
 		default:

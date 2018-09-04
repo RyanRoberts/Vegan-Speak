@@ -3,6 +3,8 @@ import { StyleSheet, View, ScrollView, Text, TouchableOpacity } from 'react-nati
 import HTMLView from 'react-native-htmlview';
 import { Icon } from 'react-native-elements'
 import { connect } from 'react-redux'
+import Toast from 'react-native-root-toast';
+
 
 class Argument extends React.Component{
 	static navigationOptions = ({ navigation }) => {
@@ -25,8 +27,31 @@ class Argument extends React.Component{
 	}
 
   _toggleFavorites = (argId) =>{
-    const action = { type: "TOGGLE_FAVORITE", value: argId}
-    this.props.dispatch(action)
+    const argIndex = this.props.favoriteArgs.findIndex(item => item === argId)
+    if(argIndex !== -1){
+        const action = { type: "REMOVE_FAVORITE", value: argId}
+        this.props.dispatch(action)
+        let toast = Toast.show('Argument removed from favorites', {
+        duration: Toast.durations.LONG,
+        position: Toast.positions.BOTTOM,
+        shadow: true,
+        animation: true,
+        hideOnPress: true,
+        delay: 0,
+        });
+    }
+    else{
+        const action = { type: "ADD_FAVORITE", value: argId}
+        this.props.dispatch(action)
+        let toast = Toast.show('Argument added to favorites', {
+        duration: Toast.durations.LONG,
+        position: Toast.positions.BOTTOM,
+        shadow: true,
+        animation: true,
+        hideOnPress: true,
+        delay: 0,
+        });
+    }
   }
 
   _displayFavoriteIcon(){
@@ -96,7 +121,8 @@ const styles = StyleSheet.create({
 
 const mapStateToProps = (state) => {
   return {
-  		favoriteArgs: state.favoriteArgs
+  		favoriteArgs: state.favoriteArgs,
+      favoriteRemoved: state.favoriteRemoved
   }
 }
 
