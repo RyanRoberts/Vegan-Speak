@@ -134,14 +134,14 @@ export default args = [
 },
 {
 	id: 20,
-	category: "ANIMAL RESPECT",
+	category: "RESPECT OF ANIMALS",
 	argument: "The dairy industry doesn\'t harm animals",
 	tldr: "",
 	answer :'<p>Cows in the dairy industry, arguably, live more miserable lives than cows raised for meat. This is because they are continuously abused throughout their lives for their milk, and then<strong> </strong>killed. This is how the dairy industry works:</p><p>Since cows only produce milk when they\'re pregnant, the process begins with forced artificial insemination of cows. The farmers insert their arms into the sexual orifice of the cows and pump bull semen into them to impregnate them. This is a necessary step for milk production and occurs in small family farms all the way to factory farms.</p><p>Once the cow has a baby, two things may happen. If the baby is male, then he is no use for the farmers since he will never produce milk. Therefore, the baby is either <a href="http://www.dailymail.co.uk/debate/article-2152608/Baby-calves-shot-C4-documentary-People-right-complain-dont-inform-food.html">killed at the farm</a>, or sold to the veal industry for meat. If the baby is female, then she will have the same future as her mother and will go through several cycles of emotional and physical abuse. In both cases, the mother is not allowed to stay too long with her baby, and cows tend to cry for days after their baby is stolen.</p><p>After about two or three milking cycles, the cow\'s milk production becomes unprofitable, so the cow is killed. At this stage the cow is usually six years old. The natural lifespan of a cow is around twenty years.</p><p>This video summarises the dairy industry: <a href="https://www.youtube.com/watch?v=UcN7SGGoCNI">Dairy Is Scary</a>.</p>'
 },
 {
 	id: 21,
-	category: "ANIMAL RESPECT",
+	category: "RESPECT OF ANIMALS",
 	argument: "The egg industry doesn\'t harm animals",
 	tldr: "",
 	answer :'<p>In the egg industry, only females are required since only they lay eggs. So at the hatcheries, male and female chicks are separated by workers called \“sexers\”.</p><p>Males are considered useless so they are killed at the hatchery, either by being macerated alive, or by being gassed, drowned, or suffocated in a sack. Females are painfully de-beaked and sent off to the farm, where they will lay a painful 300+ eggs per year due to genetic manipulation (as opposed to a wild chickens 20 or so per year). This process happens in any farm, regardless of it being free-range, organic or whatever.</p><p>After the egg-laying hens stop producing a profitable amount of eggs, they are sent to slaughter, which involves being thrown into an electric bath to be ineffectively stunned, then hoisted up upside down and going along a conveyor belt to have her throat slit. Many chickens will remain fully conscious after their throats are slit and will be boiled alive in the de-feathering tank afterwards. Their slaughter happens at around two years of age. The natural lifespan of a chicken is eight years.</p>'
@@ -155,14 +155,14 @@ export default args = [
 },
 {
 	id: 23,
-	category: "ANIMAL RESPECT",
+	category: "RESPECT OF ANIMALS",
 	argument: "It\'s legal to eat animal products, there are laws to protect animals",
 	tldr: "",
 	answer :'<p>Just because something is legal doesn\'t make it right. Less than 200 years ago, slavery was legal in the United States.</p><p>The laws in place to \“protect\” farmed animals still allow significant harm to be inflicted to these animals. Organisations like the Royal Society for the Protection of Animals (RSPCA) claim to work to prevent unnecessary harm to animals. But since we know that <a href="#e3">eating animal products is unnecessary</a>, isn\'t <strong>all</strong> the harm caused in the meat, dairy and egg industries unnecessary?</p><p>This is an excerpt of what the <a href="https://www.hsa.org.uk/methods/external-trauma">Humane Slaughter Association</a> deems a \“humane\” way to kill an animal:</p><p><em>\“Infant lambs, kids and piglets can be humanely killed by delivering a heavy blow to the head. This must only be used if no other method is immediately available.</em></p><ol><li><em>Hold the animal by the back legs and deliver a firm blow to the back of the head with a blunt instrument, e.g. an iron bar or hammer.</em></li><li><em>Hold the animal by the back legs and swing it through an arc to hit the back of its head with considerable force against a solid object, e.g. a brick wall or metal stanchion.</em></li></ol><p><em>With both methods it is essential that the blow is delivered swiftly, firmly and with absolute determination. If there is any doubt that the animal has not been killed effectively, the blow should be immediately repeated.\”</em></p><p>You can clearly see that there is nothing humane about the way we treat and kill animals. In UK law, chickens can still be debeaked, pigs and male calves can be castrated, pigs can have their teeth pulled out, and more. Needless to say, the best way to stop <strong>all</strong> animal abuse from happening is to end animal agriculture altogether.</p>'
 },
 {
 	id: 24,
-	category: "ETHICS",
+	category: "VEGANISM ISN\'T ETHICAL",
 	argument: "You buy products from sweatshops",
 	tldr: "",
 	answer :'<p>The fact that I have a computer made with components that were produced in sweatshops but am vegan is no different than you having one and being against human slavery or racism. Having a laptop does not invalidate the ideologies of gender/race equality, in the same way it does not invalidate veganism. The fact that anybody funds sweat shops doesn’t mean you must also pay for animal abuse.</<p>You buying animal products is not helping workers in unfair conditions. So being vegan and buying from sweatshops is still better than not being vegan and doing so. If you\'re interested in buying fair-trade, there are several companies that pay their employees decent living wages, and you can buy from them. The logical conclusion is that if you\'re against slave labour you\'re against all oppression, including animal oppression, so you should be vegan.</<p>Trying to invalidate veganism by telling a vegan that they also contribute to harm because them buy sweatshop products is a form of the \“al tu quoque\” fallacy. If I say it is wrong to murder people, but I murder people myself, that doesn\'t make murdering people right. If I say it is wrong to kill animals for food, but I cause harm elsewhere by buying from sweatshops, that doesn\'t make killing animals right. It is impossible to cause zero harm, and no vegan claims perfection, but we\'re trying to reduce our impact as far as practicable and possible. There is a practical solution to animal abuse that is under our direct control, let\'s take it.</p>'
@@ -190,14 +190,14 @@ export default args = [
 },
 {
 	id: 28,
-	category: "ANIMAL RESPECT",
+	category: "RESPECT OF ANIMALS",
 	argument: "I only buy locally grown, free-range, organic meat",
 	tldr: "",
 	answer :'<p>In all farms, regardless of how the lives of animals are before slaughter, the animals die at a fraction of their lifespan. Animals get killed as soon as their purpose is served, or as soon as they reach a profitable size. The definition of grass-fed / organic / free-range animals is very loose and can vary wildly. It doesn\'t mean that the animals have any kind of quality of life necessarily, it just means the farm has to meet some arbitrary requirements to earn that title.</p>'
 },
 {
 	id: 29,
-	category: "ANIMAL RESPECT",
+	category: "RESPECT OF ANIMALS",
 	argument: "Humane slaughter",
 	tldr: "",
 	answer :'<p>You can, in theory (and not at the large scale required to feed 7 billion humans), kill an animal without any pain. However, this does not make the killing morally acceptable. Killing animals, thus depriving them from their right to life, for no necessity, is wrong. The <a href="https://en.oxforddictionaries.com/definition/humane">definition of \“humane\”</a> is “having or showing compassion or benevolence.” Synonyms include compassionate, kind and considerate. Therefore, “humane” and shooting animals, are not compatible. No humane person would want to take the lives away from animals for no necessity.</p>'
@@ -232,7 +232,7 @@ export default args = [
 },
 {
 	id: 34,
-	category: "ETHICS",
+	category: "VEGANISM ISN\'T ETHICAL",
 	argument: "Morality is subjective",
 	tldr: "",
 	answer :'<p>People are fast to use subjective morality to justify things they do when it\'s convenient, but wouldn\'t tolerate this argument if they were the victims. If I kill you, or your dog or a friend, by your logic this wouldn\'t be unethical because in my subjective view of morality killing isn\'t wrong. Morality must be based in facts and reason, it can\'t be completely arbitrary, or else anyone can justify an atrocity by saying their morality is subjective. We must have at least some objective measurements of what is and isn\'t ethical. Agreeing that killing beings for pleasure or convenience isn\'t ethical is a good place to start to prevent violence towards humans and animals. Veganism follows from this.</p><p>Even if you believe morality is subjective, I think most people would agree that animals have some moral value, and that they shouldn\'t be harmed for no reason. So by your own subjective morality you can agree that veganism is right because harming animals unnecessarily is wrong.</p>'
@@ -246,35 +246,35 @@ export default args = [
 },
 {
 	id: 36,
-	category: "ETHICS",
+	category: "VEGANISM ISN\'T ETHICAL",
 	argument: "Focus on more important issues / Human rights are more important",
 	tldr: "",
 	answer :'<p>Veganism is a non-action. In other words, you don\'t need to actively do anything to be vegan, so it doesn\'t take more of your time. As such, you can continue to fight for human rights issues or other \“more important\” causes while eating a veggie burger or stir fry instead of a steak. You don\'t need to harm animals while you fight against human oppression. Plus, if we wait until all human rights issues are solved before addressing animal suffering, we would never get there since there will always be human conflict.</p><p>It is also worth putting the animal suffering problem into perspective. Worldwide, <a href="http://www.animalequality.net/food">56 billion land animals</a> are killed every year for food. <a href="http://www.cowspiracy.com/facts/">Animal agriculture is the leading cause of species extinction, ocean dead zones, water pollution, greenhouse gas emissions and Amazon deforestation</a>. Nowhere in the world are humans being exploited in the magnitude and severity as non-human animals are. If they were, there would be a global uproar and the issue would be solved immediately.</p><p>Animal abuse is interlinked with human suffering, too. High meat and dairy diets are responsible for some of the United States\' leading killers, like heart disease and strokes. In areas where slaughterhouses are set up, the <a href="http://www.animalstudies.msu.edu/Slaughterhouses_and_Increased_Crime_Rates.pdf">rates of domestic violence and crime go up</a>. Many human rights violations occur in factory farms because of the high production rate required to meet the demand for meat. <a href="https://www.oxfamamerica.org/static/media/files/No_Relief_Embargo.pdf">Some US factory farm workers wear diapers to work because of lack of bathroom breaks</a>. Don\'t you think the animal rights issue is at least as important as some human rights issues?</p>'
 },
 {
 	id: 37,
-	category: "ETHICS",
+	category: "VEGANISM ISN\'T ETHICAL",
 	argument: "Plants feel pain",
 	tldr: "",
 	answer :'<p>If you\'re really serious about this and no amount of scientific evidence will sway you, then it comes down to numbers. If a blade of grass is of the same moral value to you as a dog, pig or chicken, then it makes no sense to feed livestock on with plants, and then kill the animals to eat. This would result in far more plant and animal casualties than if you ate plants directly. If you truly care about plants not feeling pain, it is better to minimise those plant deaths by feeding yourself on them, rather than feeding many more plants to animals.</p><p>But let\'s be reasonable. Plants lack brains, a Central Nervous System, and anything else that neuroscientists know to cause sentience. Some studies show plants to have input / output reactions to certain stimulation, but no study suggests sentience or an ability to feel emotions or pain. You can clearly understand the difference between a blade of grass and a pig. Comparisons between the two are completely absurd.</p>'
 },
 {
 	id: 38,
-	category: "ETHICS",
+	category: "VEGANISM ISN\'T ETHICAL",
 	argument: "Animals die in crop harvesting",
 	tldr: "",
 	answer :'<p>This is true, and no vegan claims to cause no harm to animals. Vegans try to avoid animal deaths with practical solutions i.e. boycotting these industries. But an argument against veganism that uses this fact is an argument several times stronger against eating meat. Why? Because you require about 10 times more crops to feed 56 billion farmed animals per year than if 7 billion humans ate the crops directly. So if you\'re truly concerned with minimising animal deaths from crop harvesting, you should be vegan. That way you minimise the torture and abuse in the meat, dairy and egg industries and you also minimise the accidental deaths in crop harvesting.</p><p>You might argue that we could eat exclusively grass-fed animals who do not require grain, but this is impractical. Firstly, most \“grass-fed\” animals are not fed 100% grass anyway, and secondly, it\'s not sustainable at all to try to feed 7 billion people exclusively on grass-fed beef. There isn\'t the space available for such a thing, and good luck living exclusively off beef and nothing else.</p>'
 },
 {
 	id: 39,
-	category: "ETHICS",
+	category: "VEGANISM ISN\'T ETHICAL",
 	argument: "You take medication that has been tested on animals",
 	tldr: "",
 	answer :'<p>The definition of veganism is: <em>\“Veganism is a way of living which seeks to exclude, as far as is possible and practicable, all forms of exploitation of, and cruelty to, animals for food, clothing or any other purpose\”</em>.</p><p>It is not practicable and possible to die or get ill because you don\'t take a medication you need. It is the law in the US, the UK and Europe that all medicine must be tested on animals before being released to the market, so as vegans we cannot practically avoid this since there aren\'t any non-tested medicines.</p><p>But this is entirely different to eating meat, dairy and eggs for pleasure and convenience when there are thousands of other options available in the supermarket, many times in the next shelf. If the option is between dying or taking medicine tested on animals, you take the medicine. You\'re not in this situation when you buy animal products and this argument is a complete cop-out. Also it is worth mentioning that buying the medicine is not actually increasing demand for animal testing, since the medicine was tested before entering the market and never again, whereas animal products require animal deaths every time.</p>'
 },
 {
 	id: 40,
-	category: "ETHICS",
+	category: "VEGANISM ISN\'T ETHICAL",
 	argument: "Hitler was a vegetarian",
 	tldr: "",
 	answer :'<p>Historians are still unsure about this, and there is evidence to suggest that he wasn\'t. But let\'s assume he was for this argument. The argument suggests that everything that Hitler did, we must do the opposite. This makes no sense. Hitler liked dogs, and brushed his teeth and ate and showered. Should we avoid doing all these things because he did? Of course not!</p><p>Also, why are we singling out Hitler? If you look at all dictators, serial killers, rapists, and tyrants throughout history, you can be sure that the vast majority are actually meat-eaters. So if the behaviour of heinous criminals dictates that you do the opposite, then why are you ignoring all of them and only talking about Hitler?</p>'

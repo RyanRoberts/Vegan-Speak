@@ -12,20 +12,20 @@ export default categoriesData = [
 		icon: 'flag'
 	},
 	{
-		name: 'HEALTH',
-		icon: 'heartbeat'
-	},
-	{
-		name: 'UNREALISM',
+		name: 'VEGAN UNREALISM',
 		icon: 'thumbs-down'
 	},
 	{
-		name: 'ANIMAL RESPECT',
+		name: 'RESPECT OF ANIMALS',
 		icon: 'heart-o'
 	},
 	{
-		name: 'ETHICS',
+		name: 'VEGANISM ISN\'T ETHICAL',
 		icon: 'thumbs-up'
+	},
+	{
+		name: 'HEALTH',
+		icon: 'heartbeat'
 	},
 	{
 		name: 'OTHER',

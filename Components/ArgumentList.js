@@ -1,13 +1,22 @@
 import React from 'react'
-import { StyleSheet, View, FlatList, Image } from 'react-native'
+import { StyleSheet, View, FlatList, Image, TouchableOpacity } from 'react-native'
 import {ListItem} from 'react-native-elements'
 import { connect } from 'react-redux'
 import NavigationService from '../Services/NavigationService'
 
+
+const filterArg = (arg) => {
+  return {
+      id: arg.id,
+      argument: arg.argument
+    }
+}
+
+
 class ArgumentList extends React.Component {
 
-    _displayArgument = (arg) => {
-      NavigationService.navigate("Argument", { argument: arg })
+    _displayArgument = (id) => {
+      NavigationService.navigate("Argument", { argument: this.props.args.find(item => item.id === id)})
     }
 
   render() {
@@ -18,10 +27,12 @@ class ArgumentList extends React.Component {
           style={styles.image}
           source={require('../assets/img/veganspeak-banner.png')}/>
         <FlatList 
-          data = {args}
+          data = {args.map(item => filterArg(item))}
           extraData={this.props.favoriteArgs}
           keyExtractor={(item) => item.id.toString()}
           renderItem = {({item}) => (
+            <TouchableOpacity
+               onPress = {() => this._displayArgument(item.id)}>
             <ListItem 
               badge={{ value: item.id, containerStyle: {margin: 3}}}
               title={item.argument}
@@ -30,9 +41,10 @@ class ArgumentList extends React.Component {
               hideChevron
               subtitle={(this.props.favoriteArgs.findIndex(elem => item.id === elem) !== -1)? 'favorited' : null}
               subtitleStyle= {styles.subtitle}
-              onPress = {() => this._displayArgument(item)}
               wrapperStyle={{flexDirection: 'row-reverse'}} 
-              leftIcon={{ name: "chevron-right"}}/>//this icon is actually on the right! I inverted flex for the badge to be on the left 
+              leftIcon={{ name: "chevron-right"}}
+            />
+            </TouchableOpacity> 
             )}
         />
       </View>

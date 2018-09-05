@@ -32,7 +32,7 @@ class Argument extends React.Component{
         const action = { type: "REMOVE_FAVORITE", value: argId}
         this.props.dispatch(action)
         let toast = Toast.show('Argument removed from favorites', {
-        duration: Toast.durations.LONG,
+        duration: Toast.durations.SHORT,
         position: Toast.positions.BOTTOM,
         shadow: true,
         animation: true,
@@ -44,7 +44,7 @@ class Argument extends React.Component{
         const action = { type: "ADD_FAVORITE", value: argId}
         this.props.dispatch(action)
         let toast = Toast.show('Argument added to favorites', {
-        duration: Toast.durations.LONG,
+        duration: Toast.durations.SHORT,
         position: Toast.positions.BOTTOM,
         shadow: true,
         animation: true,
@@ -63,6 +63,7 @@ class Argument extends React.Component{
         <Icon
           name={iconName}
           type={'font-awesome'}
+          style={styles.favorite_container}
           size={32}
           onPress={() => this._toggleFavorites(this.arg.id)} 
         />
@@ -73,11 +74,7 @@ class Argument extends React.Component{
 			<View style={styles.main_container}>
         <Text style={styles.sectionTitle}>{"short answer: "}</Text>
         <Text style={styles.tldr}>{this.arg.tldr}</Text>
-        <TouchableOpacity
-              style={styles.favorite_container}
-              onPress={() => this._toggleFavorite}>
-              {this._displayFavoriteIcon()}
-          </TouchableOpacity>
+        {this._displayFavoriteIcon()}
         <Text style={styles.sectionTitle}>{"long answer: "}</Text>
         <ScrollView style={styles.longAnswer}>
 				<HTMLView
@@ -98,7 +95,7 @@ const styles = StyleSheet.create({
   },
   favorite_container: {
     alignItems: 'center',
-    margin: 15
+    padding: 15
   },
   tldr: {
     color: '#878C8F',
