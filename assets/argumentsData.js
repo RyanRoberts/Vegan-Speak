@@ -10,49 +10,49 @@ export default args = [
 	id: 2,
 	category: "NATURE",
 	argument: "Top of the food chain / Circle of life",
-	tldr: "",
+	tldr: "Nope,we are not.",
 	answer :'<p>Scientist have proven that we are in fact not at the top of the food chain. This <a href="http://www.pnas.org/content/110/51/20617">study</a> by the National Academy of Sciences of the United States concluded that \“humans are similar to anchovy or pigs and cannot be considered apex predators\”. This means that everyone that uses the \“circle of life\” or \“we\'re at the top of the food chain\” argument should be fine with being violently eaten by other animals higher in the food chain like lions or bears. In fact, they should be fine with having the same treatment as pigs since we are at their same level.</p><p><a href="#e16">But we are superior to pigs!?</a></p>'
 },
 {
 	id: 3,
 	category: "NATURE",
 	argument: "Eating animals is necessary",
-	tldr: "",
+	tldr: "really?",
 	answer :'<p>It\'s not. There are millions of vegans from all paths of life and in all circumstances that follow a vegan diet. In fact, the <a href="http://www.eatrightpro.org/resource/practice/position-and-practice-papers/position-papers/vegetarian-diets">Academy of Nutrition and Dietetics</a>, the United States\' <a href="https://en.wikipedia.org/wiki/Academy_of_Nutrition_and_Dietetics">largest organisation of food and nutrition professionals</a>, states the following:</p><p><em>\“It is the position of the Academy of Nutrition and Dietetics that appropriately planned vegetarian, including vegan, diets are healthful, nutritionally adequate and may provide health benefits for the prevention and treatment of certain diseases. These diets are appropriate for all stages of the life cycle, including pregnancy, lactation, infancy, childhood, adolescence, older adulthood and for athletes. Plant-based diets are more environmentally sustainable than diets rich in animal products because they use fewer natural resources and are associated with much less environmental damage. Vegetarians and vegans are at reduced risk of certain health conditions, including ischemic heart disease, type 2 diabetes, hypertension, certain types of cancer, and obesity.\”</em></p><p>The <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4081456/">largest study ever done</a> on vegan nutrient profiles states the following:</p><p><em>“In strict vegetarians low dietary intakes of vitamin B12 and D, calcium, and omega-3 fatty acids, in addition to iron and zinc, have often been of concern <sup><a id="__tag_387240285" class=" bibr popnode tag_hotlink tag_tooltip" role="button" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4081456/#R25" aria-expanded="false" aria-haspopup="true">25</a></sup>. In the present study, mean intakes of these nutrients were above minimum requirements <sup><a class=" bibr popnode" role="button" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4081456/#R26" aria-expanded="false" aria-haspopup="true">26</a></sup> in strict vegetarians.”</em></p><p>So eating animal products is not necessary for health and well-being.</p>'
 },
 {
 	id: 4,
 	category: "NATURE",
 	argument: "Eating animals is natural",
-	tldr: "",
+	tldr: "Nature isn't an ethical model",
 	answer :'<p>It doesn\'t matter if it is, because something being natural doesn\'t mean it\'s ethical or good. This is an \“appeal to nature fallacy\”. You don\'t do things solely because they\'re natural. You use planes, cars, medicine, operations, doors, buildings, clothing, cutlery, cups, and an array of things that are not natural. There are other natural things you avoid, such as killing members of your own species and forcibly impregnating females, because nature is a violent place. Some diseases and health problems are natural, but you do whatever you can to unnaturally get better.</p><p>Our civilisation is based largely on focusing on reducing suffering rather than in staying aligned with nature. In many cases, we strive to avoid the perils of nature. You should do what\'s ethical, not what is natural. Abusing and killing animals when you don\'t need to is unethical, regardless of it being natural.</p>'
 },
 {
 	id: 5,
 	category: "NATURE",
 	argument: "Humans are omnivores",
-	tldr: "",
+	tldr: "as a vegan diet can be healty, this argument doesn't really matter",
 	answer :'<p>There is still a debate about whether or not we are omnivores. There is a lot of evidence pointing towards humans being herbivores, or at least scavengers (like rats, who eat their meat after it has been killed by other predators). This <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1312295/">article</a> by William C. Roberts, MD argues humans are plant eaters because only herbivores develop atherosclerosis (hardening of the arteries). I personally think vegans are omnivores just because we can digest meat, but that our preferred source of fuel is plants. But it doesn\'t matter, because we can be completely healthy as vegans, and eating meat causes harm to animals, so we shouldn\'t do it.</p><p>Having the ability to do something doesn\'t mean it\'s right to do so. Human beings can carry out many atrocities, and some do, but those that do face punishment because their actions are wrong. Having canine teeth or the ability to digest meat doesn\'t justify eating animals in the same way having a fist doesn\'t justify beating someone up.</p>'
 },
 {
 	id: 6,
 	category: "CULTURE/HERITAGE",
 	argument: "Most people eat meat",
-	tldr: "",
+	tldr: "It doesn't make it alright",
 	answer :'<p>So what? This is an \“appeal to popularity\” fallacy and holds no true logical value. Most people in the past thought slavery was acceptable and that women shouldn\'t vote. Most people usually agree with a certain oppression and it is a small group of people that fight to change the status quo.</p>'
 },
 {
 	id: 7,
 	category: "CULTURE/HERITAGE",
 	argument: "Our ancestors ate meat",
-	tldr: "",
+	tldr: "Our ancestors aren't our model",
 	answer :'<p>Our ancestors did many things that you would find disturbing, including <a href="http://www.bbc.com/news/science-environment-32890697">killing each other</a>, and don\'t do many things you do today that improve your life. Basing your ethics on cavemen is not going to take you very far. Our knowledge has improved, and our ethical behaviour should improve accordingly.</p>'
 },
 {
 	id: 8,
 	category: "HEALTH",
 	argument: "Eating meat helped us evolve",
-	tldr: "",
+	tldr: "Even if it did in the past. it doesn't matter anymore today",
 	answer :'<p>It doesn\'t matter if it did, because we live in a very different world and different things today will make us evolve other than eating meat. Also, that something helped us evolve doesn\'t mean that such behaviour is ethical or acceptable today. Early homo sapiens used rape as a strategy for gene-promotion when they could not get access to consensual sex. This helped the human species evolve to where we are today, but I don\'t see anyone justifying rape because it might have helped us evolve.</p><p>In addition, most scientists agree that it wasn\'t meat, but <a href="https://www.smithsonianmag.com/science-nature/why-fire-makes-us-human-72989884/?no-ist">cooking foods, that made our brains evolve</a>. This would explain why we\'re the smartest animals and the only animals that cook, while other more carnivorous animals like cats are less intelligent than us. The hypothesis is that cooking allowed humans to get more energy from the same amount of food, and to spend less time chewing, which meant this extra energy helped fuel brain growth.</p>'
 },
 {
