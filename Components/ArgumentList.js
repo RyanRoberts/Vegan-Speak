@@ -23,11 +23,7 @@ class ArgumentList extends React.Component {
   	const { args } = this.props
     return (
       <View style={styles.main_container}>
-        <Image
-          style={styles.image}
-          source={require('../assets/img/veganspeak-banner.png')}/>
         <FlatList
-         containerStyle = {styles.list}
           data = {args.map(item => filterArg(item))}
           extraData={this.props.favoriteArgs}
           keyExtractor={(item) => item.id.toString()}
@@ -58,9 +54,6 @@ const styles = StyleSheet.create({
   main_container: {
     flex: 1,
   },
-  list: {
-    backgroundColor : "red"
-  },
   image: {
     flex: 1,
     resizeMode: Image.resizeMode.contain,
@@ -86,3 +79,7 @@ const mapStateToProps = (state) => {
 
 
 export default connect(mapStateToProps)(ArgumentList)
+
+/*        <Image
+          style={styles.image}
+          source={require('../assets/img/veganspeak-banner.png')}/>*/

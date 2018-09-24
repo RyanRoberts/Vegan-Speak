@@ -63,13 +63,14 @@ class Argument extends React.Component{
       iconName = 'heart'
     }
     return (
+    <View style={styles.favorite_container}>
         <Icon
           name={iconName}
           type={'font-awesome'}
-          style={styles.favorite_container}
           size={32}
           onPress={() => this._toggleFavorites(this.arg.id)} 
         />
+      </View>
       );
   }
   _displayShortAnswer(){
@@ -108,7 +109,7 @@ const styles = StyleSheet.create({
   },
   favorite_container: {
     alignItems: 'center',
-    padding: 15
+    margin: 15
   },
   tldr: {
     color: '#878C8F',
