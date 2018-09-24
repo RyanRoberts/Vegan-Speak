@@ -21,19 +21,19 @@ const formatData = (data, numColumns) => {
 
 const numColumns = 2;
 const TOP_BAR_HEIGHT = 50
-const defaultBackground = "#EEF2F4"
+const DEFAULT_BACKGROUND = "#EEF2F4"
 
 class CategoriesMenu extends React.Component {
 
     static navigationOptions = ({ navigation }) => {
         return {
-            title: 'Search antivegan arguments...',
+            title: 'Browse by category...',
         };
     };
 
     constructor(props) {
         super(props)
-        this.state = { inputBackgroundColor: defaultBackground,
+        this.state = { inputBackgroundColor: DEFAULT_BACKGROUND,
             searchedText: "" }
         }
 
@@ -48,7 +48,7 @@ class CategoriesMenu extends React.Component {
 
         onTextInputBlur() {
             this.setState({
-                inputBackgroundColor: defaultBackground
+                inputBackgroundColor: DEFAULT_BACKGROUND
             })
         }
 
@@ -123,7 +123,7 @@ class CategoriesMenu extends React.Component {
     const styles = StyleSheet.create({
         main_container: {
             flex: 1,
-            backgroundColor: defaultBackground
+            backgroundColor: DEFAULT_BACKGROUND
         },
         top_container:{
             flex: 0,

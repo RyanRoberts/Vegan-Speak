@@ -39,6 +39,9 @@ class Argument extends React.Component{
         hideOnPress: true,
         delay: 0,
         });
+        if(this.props.navigation.getParam('inFavorites', false)){
+          this.props.navigation.goBack()
+        }
     }
     else{
         const action = { type: "ADD_FAVORITE", value: argId}
@@ -69,16 +72,26 @@ class Argument extends React.Component{
         />
       );
   }
+  _displayShortAnswer(){
+    if(this.arg.tldr !== ""){
+      return(
+          <View>
+            <Text style={styles.sectionTitle}>{"short answer: "}</Text>
+            <Text style={styles.tldr}>{this.arg.tldr}</Text>
+            <Text style={styles.sectionTitle}>{"long answer: "}</Text>
+          </View>
+      );
+    }
+  }
 	render(){
 		return(
 			<View style={styles.main_container}>
-        <Text style={styles.sectionTitle}>{"short answer: "}</Text>
-        <Text style={styles.tldr}>{this.arg.tldr}</Text>
         {this._displayFavoriteIcon()}
-        <Text style={styles.sectionTitle}>{"long answer: "}</Text>
+        {this._displayShortAnswer()}
         <ScrollView style={styles.longAnswer}>
 				<HTMLView
 					value={this.arg.answer}
+          stylesheet={HTMLstyles}
 				/>
         </ScrollView>
 			</View>
@@ -115,6 +128,16 @@ const styles = StyleSheet.create({
     paddingRight: 5
   }
 })
+
+const HTMLstyles = StyleSheet.create({
+    a: {
+        color: 'grey',
+        fontWeight: 'bold',
+        textDecorationLine: 'underline',
+        fontStyle: 'italic'
+    }
+});
+
 
 const mapStateToProps = (state) => {
   return {

@@ -1,34 +1,66 @@
 export default categoriesData = [
 	{
 		name: 'ALL',
-		icon: 'check-square'
+		label: 'ALL',
+		icon:{
+			name: 'check-square',
+			type: 'font-awesome'
+		}
 	},
 	{
 		name: 'NATURE',
-		icon: 'envira'
+		label: 'NATURE',
+		icon:{
+			name: 'envira',
+			type: 'font-awesome'
+		}
 	},
 	{
-		name: 'CULTURE/HERITAGE',
-		icon: 'flag'
+		name: 'CULTURE_HERITAGE',
+		label: 'CULTURE/HERITAGE',
+		icon:{
+			name: 'flag',
+			type: 'font-awesome'
+		}
 	},
 	{
-		name: 'VEGAN UNREALISM',
-		icon: 'thumbs-down'
+		name: 'UNREALISM',
+		label: 'VEGAN UNREALISM',
+		icon:{
+			name: 'remove',
+			type: 'font-awesome'
+		}
 	},
 	{
-		name: 'RESPECT OF ANIMALS',
-		icon: 'heart-o'
+		name: 'RESPECT',
+		label: 'RESPECT OF ANIMALS',
+		icon:{
+			name: 'md-heart',
+			type: 'ionicon'
+		}
 	},
 	{
-		name: 'VEGANISM ISN\'T ETHICAL',
-		icon: 'thumbs-up'
+		name: 'ETHICS',
+		label: 'VEGANISM ISN\'T ETHICAL',
+		icon:{
+			name: 'thumbs-down',
+			type: 'font-awesome'
+		}
 	},
 	{
 		name: 'HEALTH',
-		icon: 'heartbeat'
+		label: 'HEALTH',
+		icon:{
+			name: 'heartbeat',
+			type: 'font-awesome'
+		}
 	},
 	{
 		name: 'OTHER',
-		icon: 'question'
+		label: 'OTHER',
+		icon:{
+			name: 'question',
+			type: 'font-awesome'
+		}
 	}
 ]

@@ -17,7 +17,8 @@ class Favorites extends React.Component {
     return (
       <View style={styles.main_container}>
       <ArgumentList 
-      args={favoriteArgs}/>
+      args={favoriteArgs}
+      inFavorites={true}/>
       </View>
     )
   }

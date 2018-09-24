@@ -16,7 +16,7 @@ const filterArg = (arg) => {
 class ArgumentList extends React.Component {
 
     _displayArgument = (id) => {
-      NavigationService.navigate("Argument", { argument: this.props.args.find(item => item.id === id)})
+      NavigationService.navigate("Argument", { argument: this.props.args.find(item => item.id === id), inFavorites: this.props.inFavorites})
     }
 
   render() {
@@ -26,12 +26,14 @@ class ArgumentList extends React.Component {
         <Image
           style={styles.image}
           source={require('../assets/img/veganspeak-banner.png')}/>
-        <FlatList 
+        <FlatList
+         containerStyle = {styles.list}
           data = {args.map(item => filterArg(item))}
           extraData={this.props.favoriteArgs}
           keyExtractor={(item) => item.id.toString()}
           renderItem = {({item}) => (
             <TouchableOpacity
+               activeOpacity = {0.6}
                onPress = {() => this._displayArgument(item.id)}>
             <ListItem 
               badge={{ value: item.id, containerStyle: {margin: 3}}}
@@ -55,6 +57,9 @@ class ArgumentList extends React.Component {
 const styles = StyleSheet.create({
   main_container: {
     flex: 1,
+  },
+  list: {
+    backgroundColor : "red"
   },
   image: {
     flex: 1,

@@ -9,8 +9,8 @@ class CategoryCard extends React.Component{
 			onPress = {() => this.props.displayCategory(this.props.category.name)}>
 				<Card
 				containerStyle={styles.categoryCard}
-				title={this.props.category.name}>
-					<Icon name={this.props.category.icon} type="font-awesome"></Icon>
+				title={this.props.category.label}>
+					<Icon name={this.props.category.icon.name} type={this.props.category.icon.type}></Icon>
 				</Card> 
 			</TouchableOpacity>
 		)
