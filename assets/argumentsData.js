@@ -192,29 +192,29 @@ export default args = [
 	id: 28,
 	category: "RESPECT",
 	argument: "I only buy locally grown, free-range, organic meat",
-	tldr: "In all farms, regardless of how the lives of animals are before slaughter, the animals die at a fraction of their lifespan. Animals get killed as soon as their purpose is served, or as soon as they reach a profitable size.",
-	answer :'<p>The definition of grass-fed / organic / free-range animals is very loose and can vary wildly. It doesn\'t mean that the animals have any kind of quality of life necessarily, it just means the farm has to meet some arbitrary requirements to earn that title.</p>'
+	tldr: "In all farms, regardless of how the lives of animals are before slaughter, the animals die at a fraction of their lifespan.",
+	answer :'<p> Animals get killed as soon as their purpose is served, or as soon as they reach a profitable size. Moreover, the definition of grass-fed / organic / free-range animals is very loose and can vary wildly. It doesn\'t mean that the animals have any kind of quality of life necessarily, it just means the farm has to meet some arbitrary requirements to earn that title.</p>'
 },
 {
 	id: 29,
 	category: "RESPECT",
 	argument: "Humane slaughter",
-	tldr: "",
+	tldr: "No suffering doesn't make killing acceptable",
 	answer :'<p>You can, in theory (and not at the large scale required to feed 7 billion humans), kill an animal without any pain. However, this does not make the killing morally acceptable. Killing animals, thus depriving them from their right to life, for no necessity, is wrong. The <a href="https://en.oxforddictionaries.com/definition/humane">definition of \“humane\”</a> is “having or showing compassion or benevolence.” Synonyms include compassionate, kind and considerate. Therefore, “humane” and shooting animals, are not compatible. No humane person would want to take the lives away from animals for no necessity.</p>'
 },
 {
 	id: 30,
 	category: "CULTURE_HERITAGE",
 	argument: "Animal products are tasty",
-	tldr: "",
-	answer :'<p>Animal products are the result of suffering and killing of animals. If you justify eating animals and their secretions by saying that you like the taste, this means you believe that unethical actions can be justified by the personal pleasure you derive from such action. This is clearly problematic. Using this line of thinking you can justify stealing because it feels good to have more money, or raping because you enjoy it. Harming another sentient being for your own pleasure is morally despicable.</p>'
+	tldr: "Harming another sentient being for your own pleasure is despicable.",
+	answer :'<p>Animal products are the result of suffering and killing of animals. If you justify eating animals and their secretions by saying that you like the taste, this means you believe that unethical actions can be justified by the personal pleasure you derive from such action. This is clearly problematic. Using this line of thinking you can justify stealing because it feels good to have more money, or raping because you enjoy it.</p>'
 },
 {
 	id: 31,
 	category: "OTHER",
 	argument: "Vegan food is tasteless",
-	tldr: "",
-	answer :'<p>Most of the food humans eat is vegan. Fruits, vegetables, grains, legumes, nuts, seeds, pasta, bread, potatoes and soy. You enjoy these foods every day and you don\'t think they\'re unpalatable. The food your prepare is as good as you make it. There are award winning vegan food products and restaurants all over the world. You can easily find online recipes to veganise your favourite meals. There are plenty of dairy milk alternatives in the market. If you don\'t like soy milk, try oat, rice, coconut, hazelnut or almond milk.</p><p>And even if vegan food was tasteless, morality trumps personal pleasure. An animal\'s desire to live will always be greater than your desire to eat a steak, and deep down you know this.</p>'
+	tldr: "There are award winning vegan food products and restaurants all over the world.",
+	answer :'<p>Most of the food humans eat is vegan. Fruits, vegetables, grains, legumes, nuts, seeds, pasta, bread, potatoes and soy. You enjoy these foods every day and you don\'t think they\'re unpalatable. The food your prepare is as good as you make it. You can easily find online recipes to veganise your favourite meals. There are plenty of dairy milk alternatives in the market. If you don\'t like soy milk, try oat, rice, coconut, hazelnut or almond milk.</p><p>And even if vegan food was tasteless, morality trumps personal pleasure. An animal\'s desire to live will always be greater than your desire to eat a steak, and deep down you know this.</p>'
 },
 {
 	id: 32,
@@ -234,22 +234,22 @@ export default args = [
 	id: 34,
 	category: "ETHICS",
 	argument: "Morality is subjective",
-	tldr: "",
-	answer :'<p>People are fast to use subjective morality to justify things they do when it\'s convenient, but wouldn\'t tolerate this argument if they were the victims. If I kill you, or your dog or a friend, by your logic this wouldn\'t be unethical because in my subjective view of morality killing isn\'t wrong. Morality must be based in facts and reason, it can\'t be completely arbitrary, or else anyone can justify an atrocity by saying their morality is subjective. We must have at least some objective measurements of what is and isn\'t ethical. Agreeing that killing beings for pleasure or convenience isn\'t ethical is a good place to start to prevent violence towards humans and animals. Veganism follows from this.</p><p>Even if you believe morality is subjective, I think most people would agree that animals have some moral value, and that they shouldn\'t be harmed for no reason. So by your own subjective morality you can agree that veganism is right because harming animals unnecessarily is wrong.</p>'
+	tldr: "People are fast to use subjective morality to justify things they do when it\'s convenient, but wouldn\'t tolerate this argument if they were the victims.",
+	answer :'<p>If I kill you, or your dog or a friend, by your logic this wouldn\'t be unethical because in my subjective view of morality killing isn\'t wrong. Morality must be based in facts and reason, it can\'t be completely arbitrary, or else anyone can justify an atrocity by saying their morality is subjective. We must have at least some objective measurements of what is and isn\'t ethical. Agreeing that killing beings for pleasure or convenience isn\'t ethical is a good place to start to prevent violence towards humans and animals. Veganism follows from this.</p><p>Even if you believe morality is subjective, I think most people would agree that animals have some moral value, and that they shouldn\'t be harmed for no reason. So by your own subjective morality you can agree that veganism is right because harming animals unnecessarily is wrong.</p>'
 },
 {
 	id: 35,
 	category: "UNREALISM",
 	argument: "Not everyone can be vegan",
-	tldr: "",
-	answer :'<p>That\'s true, but <strong>you</strong> can. There are certain, extremely rare circumstances where individuals cannot be vegan due to uncommon medical conditions or life situations. Everyone that can be vegan, should. If you can\'t there is nothing that can be done. Veganism is about doing what is practicable and possible to end animal exploitation. If you\'re reading this, you can decide to stop harming animals at any moment.</p>'
+	tldr: "That\'s true, but <strong>you</strong> can.",
+	answer :'<p>There are certain, extremely rare circumstances where individuals cannot be vegan due to uncommon medical conditions or life situations. Everyone that can be vegan, should. If you can\'t there is nothing that can be done. Veganism is about doing what is practicable and possible to end animal exploitation. If you\'re reading this, you can decide to stop harming animals at any moment.</p>'
 },
 {
 	id: 36,
 	category: "ETHICS",
 	argument: "Focus on more important issues / Human rights are more important",
-	tldr: "",
-	answer :'<p>Veganism is a non-action. In other words, you don\'t need to actively do anything to be vegan, so it doesn\'t take more of your time. As such, you can continue to fight for human rights issues or other \“more important\” causes while eating a veggie burger or stir fry instead of a steak. You don\'t need to harm animals while you fight against human oppression. Plus, if we wait until all human rights issues are solved before addressing animal suffering, we would never get there since there will always be human conflict.</p><p>It is also worth putting the animal suffering problem into perspective. Worldwide, <a href="http://www.animalequality.net/food">56 billion land animals</a> are killed every year for food. <a href="http://www.cowspiracy.com/facts/">Animal agriculture is the leading cause of species extinction, ocean dead zones, water pollution, greenhouse gas emissions and Amazon deforestation</a>. Nowhere in the world are humans being exploited in the magnitude and severity as non-human animals are. If they were, there would be a global uproar and the issue would be solved immediately.</p><p>Animal abuse is interlinked with human suffering, too. High meat and dairy diets are responsible for some of the United States\' leading killers, like heart disease and strokes. In areas where slaughterhouses are set up, the <a href="http://www.animalstudies.msu.edu/Slaughterhouses_and_Increased_Crime_Rates.pdf">rates of domestic violence and crime go up</a>. Many human rights violations occur in factory farms because of the high production rate required to meet the demand for meat. <a href="https://www.oxfamamerica.org/static/media/files/No_Relief_Embargo.pdf">Some US factory farm workers wear diapers to work because of lack of bathroom breaks</a>. Don\'t you think the animal rights issue is at least as important as some human rights issues?</p>'
+	tldr: "Veganism is a non-action. In other words, you don\'t need to actively do anything to be vegan, so it doesn\'t take more of your time.",
+	answer :'<p>You can continue to fight for human rights issues or other \“more important\” causes while eating a veggie burger or stir fry instead of a steak. You don\'t need to harm animals while you fight against human oppression. Plus, if we wait until all human rights issues are solved before addressing animal suffering, we would never get there since there will always be human conflict.</p><p>It is also worth putting the animal suffering problem into perspective. Worldwide, <a href="http://www.animalequality.net/food">56 billion land animals</a> are killed every year for food. <a href="http://www.cowspiracy.com/facts/">Animal agriculture is the leading cause of species extinction, ocean dead zones, water pollution, greenhouse gas emissions and Amazon deforestation</a>. Nowhere in the world are humans being exploited in the magnitude and severity as non-human animals are. If they were, there would be a global uproar and the issue would be solved immediately.</p><p>Animal abuse is interlinked with human suffering, too. High meat and dairy diets are responsible for some of the United States\' leading killers, like heart disease and strokes. In areas where slaughterhouses are set up, the <a href="http://www.animalstudies.msu.edu/Slaughterhouses_and_Increased_Crime_Rates.pdf">rates of domestic violence and crime go up</a>. Many human rights violations occur in factory farms because of the high production rate required to meet the demand for meat. <a href="https://www.oxfamamerica.org/static/media/files/No_Relief_Embargo.pdf">Some US factory farm workers wear diapers to work because of lack of bathroom breaks</a>. Don\'t you think the animal rights issue is at least as important as some human rights issues?</p>'
 },
 {
 	id: 37,
@@ -283,15 +283,15 @@ export default args = [
 	id: 41,
 	category: "UNREALISM",
 	argument: "Veganism is expensive",
-	tldr: "",
-	answer :'<p>Not true. As a matter of fact, veganism can be as expensive or inexpensive as you want it to be. But pound for pound, a plant-based diet is by far the least expensive one on the planet, given that the staple foods of the most poverty-stricken societies worldwide are rice, beans, lentils, potatoes, bread, and so forth. For much of the world, meat and animal products are a luxury item.</p>'
+	tldr: "Not true.",
+	answer :'<p>As a matter of fact, veganism can be as expensive or inexpensive as you want it to be. But pound for pound, a plant-based diet is by far the least expensive one on the planet, given that the staple foods of the most poverty-stricken societies worldwide are rice, beans, lentils, potatoes, bread, and so forth. For much of the world, meat and animal products are a luxury item.</p>'
 },
 {
 	id: 42,
 	category: "UNREALISM",
 	argument: "Veganism is unsustainable",
-	tldr: "",
-	answer :'<p>Quite the opposite, actually: eating meat is completely unsustainable. The <a href="https://www.theguardian.com/environment/2010/jun/02/un-report-meat-free-diet">United Nations</a> has been urging for years that people move to a plant-based diet because \“lesser consumption of animal products is necessary to save the world from the worst impacts of climate change\”. This is because <a href="https://www.epa.gov/ghgemissions/global-greenhouse-gas-emissions-data">animal agriculture is responsible for more greenhouse gas emissions, about 18%, than all the transport systems combined in the world, around 13%</a>. It is also the leading cause of species extinction, ocean dead zones and several other environmental degradation indicators. You can find more on this <a href="http://www.cowspiracy.com/facts/">here</a>.</p><p>In fact, we could feed more people with less land, water and resource usage if everyone was vegan than if people ate meat. A <a href="http://news.cornell.edu/stories/1997/08/us-could-feed-800-million-people-grain-livestock-eat">Cornell University article</a> states that the US alone could feed about 800 million more people \“if all the grain currently fed to livestock in the United States were consumed directly by people\”.</p>'
+	tldr: "Quite the opposite, actually: eating meat is completely unsustainable. ",
+	answer :'<p>The <a href="https://www.theguardian.com/environment/2010/jun/02/un-report-meat-free-diet">United Nations</a> has been urging for years that people move to a plant-based diet because \“lesser consumption of animal products is necessary to save the world from the worst impacts of climate change\”. This is because <a href="https://www.epa.gov/ghgemissions/global-greenhouse-gas-emissions-data">animal agriculture is responsible for more greenhouse gas emissions, about 18%, than all the transport systems combined in the world, around 13%</a>. It is also the leading cause of species extinction, ocean dead zones and several other environmental degradation indicators. You can find more on this <a href="http://www.cowspiracy.com/facts/">here</a>.</p><p>In fact, we could feed more people with less land, water and resource usage if everyone was vegan than if people ate meat. A <a href="http://news.cornell.edu/stories/1997/08/us-could-feed-800-million-people-grain-livestock-eat">Cornell University article</a> states that the US alone could feed about 800 million more people \“if all the grain currently fed to livestock in the United States were consumed directly by people\”.</p>'
 },
 {
 	id: 43,
