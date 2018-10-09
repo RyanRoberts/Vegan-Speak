@@ -1,7 +1,7 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
 import ArgumentList from './ArgumentList'
-import args from '../assets/argumentsData'
+import args from '../assets/data/argumentsData'
 import { connect } from 'react-redux'
 
 const defaultBackground = "#EEF2F4"

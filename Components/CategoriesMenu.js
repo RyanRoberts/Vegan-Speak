@@ -1,10 +1,10 @@
 import React from 'react';
 import { View, StyleSheet, FlatList, TextInput, Image, TouchableOpacity } from 'react-native';
 import { Icon } from 'react-native-elements'
-import CategoriesData from '../assets/categoriesData';
+import CategoriesData from '../assets/data/categoriesData';
 import CategoryCard from './CategoryCard';
 import ArgumentList from './ArgumentList'
-import args from '../assets/argumentsData'
+import args from '../assets/data/argumentsData'
 
 
 const formatData = (data, numColumns) => {
@@ -52,8 +52,8 @@ class CategoriesMenu extends React.Component {
             })
         }
 
-        _displayCategory = (category) => {
-            this.props.navigation.navigate("Category", { category: category })
+        _displayCategory = (categoryName, categoryLabel) => {
+            this.props.navigation.navigate("Category", { categoryName: categoryName, categoryLabel: categoryLabel })
         }
         _searchTextInputChanged(text) {
             this.setState({ searchedText: text })

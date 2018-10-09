@@ -6,7 +6,7 @@ class CategoryCard extends React.Component{
 	render(){
 		return(
 			<TouchableOpacity style={styles.item}
-			onPress = {() => this.props.displayCategory(this.props.category.name)}>
+			onPress = {() => this.props.displayCategory(this.props.category.name, this.props.category.label)}>
 				<Card
 				containerStyle={styles.categoryCard}
 				title={this.props.category.label}>
