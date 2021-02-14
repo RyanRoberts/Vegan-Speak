@@ -1,1 +1,1 @@
-A small mobile application to help you counter-attack antivegan arguments.
+A small website to help you counter-attack anti-vegan arguments.
