@@ -1,5 +1,5 @@
 {
-    "name": "Vgn Spk",
+    "name": "Vegan Speak",
     "short_name": "Vgn Spk",
     "icons": [
         {
@@ -13,6 +13,6 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#242424",
-    "background_color": "#242424"
+    "theme_color": "#00bd6a",
+    "background_color": "#00bd6a"
 }
